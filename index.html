@@ -10,17 +10,25 @@
   <body>
     <div class="container">
       <h1>Pick Your Favorite Things!</h1>
-        <form id="questions" action="index.html" method="post">
-          <label for='question1'>What is your favorite ice cream?</label>
-          <input type="text" id="iceCream">
-          <label for='question2'>What is your favorite season?</label>
-          <input type="text" id="season">
-          <label for='question3'>What is your favorite super hero?</label>
-          <input type="text" id="superHero">
-          <label for='question4'>What is your favorite book?</label>
-          <input type="text" id="book">
-          <button type="submit" name="btn">Submit</button>
-        </form>
+      <form id="questions" action="index.html" method="post">
+        <label for='question1'>What is your favorite ice cream?</label>
+        <input type="text" id="iceCream">
+        <label for='question2'>What is your favorite season?</label>
+        <input type="text" id="season">
+        <label for='question3'>What is your favorite super hero?</label>
+        <input type="text" id="superHero">
+        <label for='question4'>What is your favorite book?</label>
+        <input type="text" id="book">
+        <button type="submit" name="btn">Submit</button>
+      </form>
+      <div id="results">
+        <ul>
+          <li class='iceCream'></li>
+          <li class='season'></li>
+          <li class='superHero'></li>
+          <li class='book'></li>
+        </ul>
+      </div>
 
     </div>
   </body>
